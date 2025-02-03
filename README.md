@@ -6,7 +6,8 @@ Este projeto realiza uma análise de sentimentos em tweets sobre companhias aér
 │
 ├── 📂 data                    # Pasta para armazenar datasets
 │   └── Tweets.csv             # Dataset de tweets sobre companhias aéreas
-│
+
+
 ├── 📂 scripts                 # Scripts Python para análise
 │   ├── carregar_dados.py      # Carrega o dataset e faz pré-processamento
 │   ├── distribuicao_sentimentos.py  # Gera gráfico de distribuição de sentimentos
@@ -14,14 +15,16 @@ Este projeto realiza uma análise de sentimentos em tweets sobre companhias aér
 │   ├── nuvem_palavras.py      # Cria nuvem de palavras para sentimentos negativos
 │   ├── analise_negativa.py    # Analisa as razões para sentimentos negativos
 │   ├── sentimento_por_companhia.py  # Examina sentimentos por companhia aérea
-│
+
+
 ├── 📂 outputs                 # Pasta para salvar imagens e resultados
 │   ├── sentiment_distribution.png     # Gráfico de distribuição de sentimentos
 │   ├── sentiment_over_time.png         # Gráfico da evolução dos sentimentos ao longo do tempo
 │   ├── wordcloud_negative.png          # Nuvem de palavras dos sentimentos negativos
 │   ├── negative_reasons.png            # Análise das razões para sentimentos negativos
 │   ├── airline_sentiment.png           # Sentimentos por companhia aérea
-│
+
+
 └── README.md                   # Explicação do projeto e instruções
 
 📊 Visualizações Geradas
