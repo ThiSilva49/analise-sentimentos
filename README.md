@@ -1,27 +1,31 @@
 # Análise de Sentimentos em Tweets sobre Companhias Aéreas
 
-Este projeto realiza uma análise de sentimentos em tweets sobre companhias aéreas usando um dataset público. São geradas diversas visualizações para entender padrões e insights sobre os sentimentos expressos pelos usuários.
+Este projeto realiza uma análise de sentimentos em tweets sobre companhias aéreas usando um dataset público. O objetivo é gerar diversas visualizações para entender padrões e insights sobre os sentimentos expressos pelos usuários em relação às companhias aéreas.
 
+## 📂 Estrutura do Projeto
+
+```plaintext
 projeto-analise-sentimentos/
-│── 📂 data/                  # Pasta para armazenar datasets
-│   └── Tweets.csv
-│── 📂 scripts/               # Scripts Python para análise
-│   ├── 01_carregar_dados.py            # Carrega o dataset
-│   ├── 02_distribuicao_sentimentos.py  # Gera gráfico de distribuição de sentimentos
-│   ├── 03_evolucao_sentimentos.py      # Analisa a evolução dos sentimentos ao longo do tempo
-│   ├── 04_nuvem_palavras.py            # Cria nuvem de palavras para sentimentos negativos
-│   ├── 05_analise_negativa.py          # Analisa as razões para sentimentos negativos
-│   ├── 06_sentimento_por_companhia.py  # Examina sentimentos por companhia aérea
-│── 📂 outputs/               # Pasta para salvar imagens e resultados
-│   ├── sentiment_distribution.png
-│   ├── sentiment_over_time.png
-│   ├── wordcloud_negative.png
-│   ├── negative_reasons.png
-│   ├── airline_sentiment.png
-│── README.md                # Explicação do projeto e instruções
-
-
-└── README.md                   # Explicação do projeto e instruções
+│
+├── 📂 data/                        <!-- Pasta para armazenar os datasets -->
+│   └── Tweets.csv                  <!-- Dataset de tweets sobre companhias aéreas -->
+│
+├── 📂 scripts/                     <!-- Scripts Python para análise de dados -->
+│   ├── carregar_dados.py           <!-- Carrega o dataset e faz pré-processamento dos dados -->
+│   ├── distribuicao_sentimentos.py <!-- Gera gráfico de distribuição de sentimentos -->
+│   ├── evolucao_sentimentos.py    <!-- Analisa a evolução dos sentimentos ao longo do tempo -->
+│   ├── nuvem_palavras.py           <!-- Cria uma nuvem de palavras para sentimentos negativos -->
+│   ├── analise_negativa.py         <!-- Analisa as razões para sentimentos negativos -->
+│   └── sentimento_por_companhia.py <!-- Examina sentimentos por companhia aérea -->
+│
+├── 📂 outputs/                     <!-- Pasta para salvar imagens e resultados -->
+│   ├── sentiment_distribution.png  <!-- Gráfico de distribuição de sentimentos -->
+│   ├── sentiment_over_time.png     <!-- Gráfico da evolução dos sentimentos ao longo do tempo -->
+│   ├── wordcloud_negative.png      <!-- Nuvem de palavras dos sentimentos negativos -->
+│   ├── negative_reasons.png        <!-- Análise das razões para sentimentos negativos -->
+│   └── airline_sentiment.png       <!-- Sentimentos por companhia aérea -->
+│
+└── README.md                       <!-- Explicação do projeto e instruções -->
 
 📊 Visualizações Geradas
 
